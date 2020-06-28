@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    <div class="goods-out"></div>
+    <h2>Товар</h2>
+    <p>Тип товара: <select  id="gtype">
+      <option>Овощи</option>
+      <option>Фрукты</option>
+    </select>
+    </p>
+    <p>Имя: <input type="text" id="gname"></p>
+    <p>Стоимость: <input type="text" id="gcost"></p>
+    <p>Описание: <textarea id="gdescr"></textarea></p>
+    <p>Изображение: <input type="text" id="gimg"></p>
+    <p>Порядок: <input type="text" id="gorder"></p>
+    <p>Вес: <input type="text" id="gweight"></p>
+    <p>Дата изготовления: <input type="date" id="gmade"></p>
+    <p>Дата истечения: <input type="date" id="gexp"></p>
+    <input type="hidden" id="gid">
+    <button class="add-to-db">Обновить</button>
+    <button class="delete-from-db">Удалить</button>
+
+<script src="js/jquery-3.2.1.min.js"></script>
+<script src="js/admin.js"></script>
+</body>
+</html>
